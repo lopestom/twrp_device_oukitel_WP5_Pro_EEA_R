@@ -1,0 +1,1 @@
+# twrp_device_oukitel_WP5_Pro_EEA_R
