@@ -67,7 +67,7 @@ jobs:
               PATH=~/bin:$PATH
               cd twrp
               export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_WP5_Pro_EEA_R-eng && mka $TARGET -j$(nproc --all)
-              cp  out/target/product/WP5_Pro/recovery.img    out/target/product/WP5_Pro/recovery-WP5_Pro_EEA_R-A11-$(date +"%Y%m%d-%H%M").img  
+              cp  out/target/product/WP5_Pro/recovery.img    out/target/product/WP5_Pro/recovery-WP5_Pro_EEA_R-A11-$(date +"%Y%m%d").img  
              
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
@@ -75,6 +75,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TEST }}
          with:
           tag_name: OUKITEL_WP5_Pro_EEA_R
-          name: TWRP36x_11-A11
+          name: TWRP36x_11-update
           files: | 
             twrp/out/target/product/WP5_Pro/recovery*.img
