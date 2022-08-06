@@ -1,24 +1,24 @@
-# TWRP device tree for Oukitel X_Game_V1.0_20220112 - (T1023)-EN-R07
+# TWRP device tree for Oukitel WP5 Pro
 ## MT6762_65 - A10 - updated to A11
 ---------------
-- Firmware version: OUKITEL_WP16_RU_V04_20220621
+- Firmware version: OUKITEL_WP5_Pro_EEA_A11_V05_20210915
 Status: testing
 
-recovery-WP16_RU-A11-nnnnnnn-nnnn.img => Working?? Not Working???
+recovery-WP5_Pro_EEA_R-A11-nnnnnnn.img => Working?? Not Working???
 ------------------------------------
 
 
-Specs: https://www.devicespecifications.com/en/model/ed6356a0
+Specs: https://www.devicespecifications.com/en/model/781d53e7
 Component Type | Details
 -------:|:-------------------------
-Shipped PLATFORM OS	 |  Android 11
+Shipped PLATFORM OS	 |  Android 10 updated to A11
 Chipset	     |  Mediatek MT6762_65 Helio 25 (12nm)
-CPU	         |  Octa-core (Cortex-A75 2x2.2 GHz + Cortex-A55 6x2.0 GHz)
-GPU	         |  IMG 9XM-HP8 (PowerVR GM9446)
-RAM / ROM	         |  8GB / 128GB
+CPU	         |  Octa-core (Cortex-A53 4x1.8 GHz + Cortex-A53 4x1.5 GHz)
+GPU	         |  PowerVR GE8320
+RAM / ROM	         |  4GB / 64GB
 
 
-![Alldocube X Game](https://cdn-files.kimovil.com/default/0006/85/thumb_584586_default_big.jpg)
+![Oukitel WP5 Pro](https://cdn-files.kimovil.com/default/0004/85/thumb_384708_default_big.jpeg)
 
 ## Big thanks to:
 - [2mkl from 4pda](https://4pda.to/forum/index.php?showuser=254002) - For testing of TWRP.<br/>
@@ -35,7 +35,7 @@ export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL=C
 export USE_NINJA=false
 . build/envsetup.sh
-lunch twrp_Power_5-eng
+lunch twrp_WP5_Pro_EEA_R-eng
 mka bootimage
 ```
 
