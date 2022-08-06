@@ -18,7 +18,7 @@ GPU	         |  PowerVR GE8320
 RAM / ROM	         |  4GB / 64GB
 
 
-![Oukitel WP5 Pro](https://cdn-files.kimovil.com/default/0004/85/thumb_384708_default_big.jpeg)
+![Oukitel WP5 Pro](https://cdn-files.kimovil.com/default/0004/85/thumb_384707_default_big.jpeg)
 
 ## Big thanks to:
 - [2mkl from 4pda](https://4pda.to/forum/index.php?showuser=254002) - For testing of TWRP.<br/>
