@@ -5,6 +5,10 @@ import /vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 import /vendor/etc/init/android.hardware.keymaster@4.0-service.trustkernel.rc
 import /vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 
+on init
+   start boot-hal-1-1
+   start health-hal-2-1
+
 on early-fs
     start vold
 
